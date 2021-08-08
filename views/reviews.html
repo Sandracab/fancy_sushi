@@ -1,0 +1,30 @@
+<section class="section" id="review-section">
+  <div class="container">
+    <h3>Vi vil gjerne høre hva du synes om oss!</h3>
+    <hr>
+    <div class="review-container" id="review-chart-box">
+      <span id="total-score"></span>
+      <p id="based-on-nmb"></p>
+    </div>
+    <div id="review-list-box">
+    </div>
+    <div id="review-list-form">
+      <label>Navn</label><br>
+      <input class="input-fields" type="text" name="name-txt" id="name-txt" placeholder="Skriv inn navn"><br>
+      
+      <label>Stjerner</label><br>
+      <select class="input-fields" name="starscore" id="starscore">
+        <option value="">Velg score</option>
+        <option value="1">5</option>
+        <option value="2">4</option>
+        <option value="3">3</option>
+        <option value="4">2</option>
+        <option value="5">1</option>
+      </select>
+      <br>
+      <label>Skriv anmeldelse</label><br>
+      <input class="input-fields" type="text-area" name="review-txt" id="review-txt" placeholder="Skriv din anmeldelse"><br>
+      <input class="btn" type="button" value="Post anmeldelse" id="review-btn" onclick="addReview()">
+    </div>
+  </div>
+</section>
